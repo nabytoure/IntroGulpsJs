@@ -24,5 +24,13 @@
     "morgan": "^1.1.1",
     "serve-favicon": "^2.0.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "del": "^2.2.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-less": "^3.0.5",
+    "gulp-load-plugins": "^1.1.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-util": "^3.0.7",
+    "yargs": "^3.31.0"
+  }
 }
