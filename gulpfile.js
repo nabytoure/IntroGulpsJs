@@ -39,7 +39,7 @@ gulp.task('less-watcher', function() {
 ////////////
 
 function clean(path, done) {
-    log('Cleaning: ' + $.util.colors.blue(path));
+    log('Cleaning: ' + $.util.colors.red(path));
     del(path, done);
 }
 
@@ -47,10 +47,10 @@ function log(msg) {
     if (typeof(msg) === 'object') {
         for (var item in msg) {
             if (msg.hasOwnProperty(item)) {
-                $.util.log($.util.colors.blue(msg[item]));
+                $.util.log($.util.colors.green(msg[item]));
             }
         }
     } else {
-        $.util.log($.util.colors.blue(msg));
+        $.util.log($.util.colors.green(msg));
     }
 }
